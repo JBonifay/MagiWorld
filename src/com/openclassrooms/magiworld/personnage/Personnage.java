@@ -76,6 +76,14 @@ public abstract class Personnage {
 
   // ---- Class methods ----
 
+  public void removeLife(int damage){
+    int currentLife = getVie();
+    System.out.println("Joueur " + getPlayerNumber() + " perd " + damage + " points de vie");
+    setVie(currentLife - damage);
+  }
+
+  // ---- Abstract methods ----
+
   /**
    * Abstract method used for return the scream of the inherited Personnage
    */
@@ -84,12 +92,12 @@ public abstract class Personnage {
   /**
    * Abstract method used for return the inherited attack 1
    */
-  public abstract void attack1();
+  public abstract void attack1(Personnage p);
 
   /**
    * Abstract method used the return the inherited attack 2
    */
-  public abstract void attack2();
+  public abstract void attack2(Personnage p);
 
 
   // ---- toString ----

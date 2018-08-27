@@ -4,9 +4,9 @@ public class Guerrier extends Personnage {
 
   /**
    * Default constructor for Guerrier
-   * @param niveau the level
-   * @param force the force
-   * @param agilite the agility
+   * @param niveau       The level of the personnage
+   * @param force        the force
+   * @param agilite      the agility
    * @param intelligence the intelligence
    * @param playerNumber the number of the actual player
    */

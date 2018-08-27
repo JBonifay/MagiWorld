@@ -82,6 +82,11 @@ public abstract class Personnage {
     setVie(currentLife - damage);
   }
 
+  public void addLife(int health){
+    System.out.println("Joueur " + getPlayerNumber() + " utilise Soin et gagne " + health + " en vitalité.");
+    setVie(getVie() + health);
+  }
+
   // ---- Abstract methods ----
 
   /**

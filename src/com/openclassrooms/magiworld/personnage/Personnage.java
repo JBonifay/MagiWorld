@@ -87,6 +87,11 @@ public abstract class Personnage {
     setVie(getVie() + health);
   }
 
+  public void addAgility(int agility){
+    System.out.println("Joueur " + getPlayerNumber() + " utilise Concentration et gagne " + agility + " en agilité.");
+    setAgilite(getAgilite() + agility);
+  }
+
   // ---- Abstract methods ----
 
   /**

@@ -5,7 +5,14 @@ public abstract class Personnage {
   private int niveau, vie, force, agilite, intelligence;
   private int playerNumber;
 
-
+  /**
+   * Default constructor
+   * @param niveau The level of the personnage
+   * @param force the force
+   * @param agilite the agility
+   * @param intelligence the intelligence
+   * @param playerNumber the number of the actual player
+   */
   public Personnage(int niveau, int force, int agilite, int intelligence, int playerNumber) {
     this.niveau = niveau;
     this.vie = niveau * 5;
@@ -69,10 +76,19 @@ public abstract class Personnage {
 
   // ---- Class methods ----
 
+  /**
+   * Abstract method used for return the scream of the inherited Personnage
+   */
   public abstract String cri();
 
+  /**
+   * Abstract method used for return the inherited attack 1
+   */
   public abstract void attack1();
 
+  /**
+   * Abstract method used the return the inherited attack 2
+   */
   public abstract void attack2();
 
 

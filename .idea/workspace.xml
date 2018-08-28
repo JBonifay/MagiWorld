@@ -21,37 +21,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
-              <folding>
-                <element signature="docComment;method#Game#0;class#Game#0" />
-                <element signature="method#Game#0;class#Game#0" />
-                <element signature="docComment;method#createPlayer#0;class#Game#0" />
-                <element signature="docComment;method#instanciationPersonnage#0;class#Game#0" />
-                <element signature="method#instanciationPersonnage#0;class#Game#0" />
-                <element signature="docComment;method#Start#0;class#Game#0" />
-                <element signature="method#Start#0;class#Game#0" />
-                <element signature="docComment;method#Turn#0;class#Game#0" />
-                <element signature="method#Turn#0;class#Game#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,7 +43,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/magiworld/Game.java" />
-        <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/MainTest.java" />
         <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/GuerrierTest.java" />
         <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/MageTest.java" />
         <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/RodeurTest.java" />
@@ -85,6 +54,7 @@
         <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Rodeur.java" />
         <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Mage.java" />
         <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/Game.java" />
+        <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/MainTest.java" />
       </list>
     </option>
   </component>
@@ -154,13 +124,6 @@
               <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="magiworld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="magiworld" type="462c0819:PsiDirectoryNode" />
               <item name="personnage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -305,7 +268,7 @@
       <option name="presentableId" value="Default" />
       <updated>1535379719199</updated>
       <workItem from="1535379720966" duration="8336000" />
-      <workItem from="1535462530291" duration="4705000" />
+      <workItem from="1535462530291" duration="5039000" />
     </task>
     <task id="LOCAL-00001" summary="Git init&#10;Add empty class : Main / Game / Personnage">
       <created>1535379930553</created>
@@ -370,7 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535466876223</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finalise">
+      <created>1535469273806</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1535469273806</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Delete unused test class">
+      <created>1535469403766</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1535469403766</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -406,7 +383,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13041000" />
+    <option name="totallyTimeSpent" value="13375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -425,7 +402,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -484,7 +461,9 @@
     <MESSAGE value="Add methods to Game for personnage creation" />
     <MESSAGE value="Add Javadoc to Personnage&#10;Add method for Game : Start &amp; Turn ( for start the fight )" />
     <MESSAGE value="Add Javadoc to Guerrier / Rodeur / Mage&#10;Add condition for personnage creation : Personnage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Javadoc to Guerrier / Rodeur / Mage&#10;Add condition for personnage creation : Personnage" />
+    <MESSAGE value="Finalise" />
+    <MESSAGE value="Delete unused test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete unused test class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,7 +507,6 @@
           <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="docComment;method#Game#0;class#Game#0" />
-            <element signature="method#Game#0;class#Game#0" />
             <element signature="docComment;method#createPlayer#0;class#Game#0" />
             <element signature="docComment;method#instanciationPersonnage#0;class#Game#0" />
             <element signature="method#instanciationPersonnage#0;class#Game#0" />
@@ -565,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/openclassrooms/magiworld/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/RodeurTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -583,27 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="1593" selection-start-line="1593" selection-end-line="1593" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/PersonnageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/openclassrooms/magiworld/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -660,13 +610,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/openclassrooms/magiworld/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/openclassrooms/magiworld/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/PersonnageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagiWorld.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+        <state relative-caret-position="180">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="docComment;method#Game#0;class#Game#0" />
-            <element signature="method#Game#0;class#Game#0" />
             <element signature="docComment;method#createPlayer#0;class#Game#0" />
             <element signature="docComment;method#instanciationPersonnage#0;class#Game#0" />
             <element signature="method#instanciationPersonnage#0;class#Game#0" />
@@ -675,6 +648,13 @@
             <element signature="docComment;method#Turn#0;class#Game#0" />
             <element signature="method#Turn#0;class#Game#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -76,17 +76,32 @@ public abstract class Personnage {
 
   // ---- Class methods ----
 
+  /**
+   * Method for remove life after an attack
+   * @param damage the amount of damage
+   */
   public void removeLife(int damage){
     int currentLife = getVie();
     System.out.println("Joueur " + getPlayerNumber() + " perd " + damage + " points de vie");
     setVie(currentLife - damage);
+    if(getVie() <= 0){
+      System.out.println("Joueur " + getPlayerNumber() + " est mort");
+    }
   }
 
+  /**
+   * Method for add life when soin is used
+   * @param health the amount of life
+   */
   public void addLife(int health){
     System.out.println("Joueur " + getPlayerNumber() + " utilise Soin et gagne " + health + " en vitalité.");
     setVie(getVie() + health);
   }
 
+  /**
+   * Method for add agility
+   * @param agility the amount of agility
+   */
   public void addAgility(int agility){
     System.out.println("Joueur " + getPlayerNumber() + " utilise Concentration et gagne " + agility + " en agilité.");
     setAgilite(getAgilite() + agility);
@@ -112,6 +127,10 @@ public abstract class Personnage {
 
   // ---- toString ----
 
+  /**
+   * Method toString who describe the personnage
+   * @return the description sentence of the created personnage
+   */
   @Override
   public String toString() {
     return cri() + " je suis le " + getClass().getSimpleName() + " Joueur " + getPlayerNumber()

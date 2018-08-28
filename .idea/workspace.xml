@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="81541a00-47aa-4bda-864e-20f1c7b6e07e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Guerrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Guerrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Personnage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Rodeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Rodeur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Guerrier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Guerrier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Mage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Personnage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Personnage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Rodeur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Rodeur.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -305,7 +305,7 @@
       <option name="presentableId" value="Default" />
       <updated>1535379719199</updated>
       <workItem from="1535379720966" duration="8336000" />
-      <workItem from="1535462530291" duration="4067000" />
+      <workItem from="1535462530291" duration="4705000" />
     </task>
     <task id="LOCAL-00001" summary="Git init&#10;Add empty class : Main / Game / Personnage">
       <created>1535379930553</created>
@@ -363,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535466093349</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Javadoc to Guerrier / Rodeur / Mage&#10;Add condition for personnage creation : Personnage">
+      <created>1535466876223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1535466876223</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -399,7 +406,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12403000" />
+    <option name="totallyTimeSpent" value="13041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -476,7 +483,8 @@
     <MESSAGE value="Add class Rodeur&#10;Add methods to Rodeur&#10;Add abstract method to Personnage&#10;Add Test class&#10;Add Test method" />
     <MESSAGE value="Add methods to Game for personnage creation" />
     <MESSAGE value="Add Javadoc to Personnage&#10;Add method for Game : Start &amp; Turn ( for start the fight )" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Javadoc to Personnage&#10;Add method for Game : Start &amp; Turn ( for start the fight )" />
+    <MESSAGE value="Add Javadoc to Guerrier / Rodeur / Mage&#10;Add condition for personnage creation : Personnage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Javadoc to Guerrier / Rodeur / Mage&#10;Add condition for personnage creation : Personnage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,9 @@
 package com.openclassrooms.magiworld.personnage;
 
+/**
+ * Class Rodeur extends Personnage
+ * Used for create a Rodeur
+ */
 public class Rodeur extends Personnage {
 
   /**

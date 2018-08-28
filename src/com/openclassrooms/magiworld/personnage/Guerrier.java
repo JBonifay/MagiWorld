@@ -1,5 +1,9 @@
 package com.openclassrooms.magiworld.personnage;
 
+/**
+ * Class Guerrier extends Personnage
+ * Used for create a Guerrier
+ */
 public class Guerrier extends Personnage {
 
   /**

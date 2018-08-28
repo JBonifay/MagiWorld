@@ -1,5 +1,9 @@
 package com.openclassrooms.magiworld.personnage;
 
+/**
+ * Class Mage extends Personnage
+ * Used for create a Mage
+ */
 public class Mage extends Personnage {
 
   private int defaultLife;

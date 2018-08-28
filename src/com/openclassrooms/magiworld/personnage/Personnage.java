@@ -1,5 +1,8 @@
 package com.openclassrooms.magiworld.personnage;
 
+/**
+ * Abstract class for the construction of a personnage
+ */
 public abstract class Personnage {
 
   private int niveau, vie, force, agilite, intelligence;

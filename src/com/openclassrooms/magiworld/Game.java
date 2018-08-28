@@ -34,17 +34,29 @@ public class Game {
    * Use a scanner for ask the value
    */
   private Personnage createPlayer(int playerNumber){
+    int classe, niveau, force, agilite, intelligence;
     System.out.println("Création du personnage du Joueur " + playerNumber);
-    System.out.println("Veuillez choisir la classe du personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage");
-    int classe = sc.nextInt();
-    System.out.println("Niveau du personnage ?");
-    int niveau = sc.nextInt();
-    System.out.println("Force du personnage ?");
-    int force = sc.nextInt();
-    System.out.println("Agilité du personnage ?");
-    int agilite = sc.nextInt();
-    System.out.println("Intelligence du personnage ?");
-    int intelligence = sc.nextInt();
+    do {
+      System.out.println("Veuillez choisir la classe du personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage");
+      classe = sc.nextInt();
+      if(classe == 0 || classe > 3)
+        System.out.println("Cette classe n'existe pas !");
+    }while (classe == 0 || classe > 3);
+
+    do {
+      System.out.println("Niveau du personnage ?");
+      niveau = sc.nextInt();
+      System.out.println("Force du personnage ?");
+      force = sc.nextInt();
+      System.out.println("Agilité du personnage ?");
+      agilite = sc.nextInt();
+      System.out.println("Intelligence du personnage ?");
+      intelligence = sc.nextInt();
+      if ((force + agilite + intelligence) > niveau)
+        System.out.println("un Personnage niveau " + niveau + " ne peut pas avoir " + force + " de force" +
+                " + " + agilite + " d'agilité + " + intelligence + " d’intelligence : le total doit faire " + niveau);
+    }while ((force + agilite + intelligence) > niveau);
+
 
     return instanciationPersonnage(classe, niveau, force, agilite, intelligence, playerNumber);
   }

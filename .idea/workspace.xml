@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81541a00-47aa-4bda-864e-20f1c7b6e07e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Guerrier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Mage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Personnage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MagiWorld/com/openclassrooms/magiworld/personnage/Rodeur.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/MagiWorld/com/openclassrooms/magiworld/GameTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/MagiWorld/com/openclassrooms/magiworld/MainTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/MagiWorld/com/openclassrooms/magiworld/personnage/GuerrierTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/MagiWorld/com/openclassrooms/magiworld/personnage/MageTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/MagiWorld/com/openclassrooms/magiworld/personnage/PersonnageTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/MagiWorld/com/openclassrooms/magiworld/personnage/RodeurTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Guerrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Guerrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Mage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Personnage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/PersonnageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/PersonnageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Rodeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Rodeur.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,31 +34,18 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+            <state relative-caret-position="317">
+              <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
               <folding>
                 <element signature="docComment;method#Game#0;class#Game#0" />
                 <element signature="method#Game#0;class#Game#0" />
                 <element signature="docComment;method#createPlayer#0;class#Game#0" />
-                <element signature="method#createPlayer#0;class#Game#0" />
                 <element signature="docComment;method#instanciationPersonnage#0;class#Game#0" />
                 <element signature="method#instanciationPersonnage#0;class#Game#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Personnage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Personnage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="83" column="67" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="67" />
-              <folding>
-                <element signature="docComment;method#Personnage#0;class#Personnage#0" />
-                <element signature="method#Personnage#0;class#Personnage#0" />
-                <element signature="docComment;method#cri#0;class#Personnage#0" />
-                <element signature="docComment;method#attack1#0;class#Personnage#0" />
-                <element signature="docComment;method#attack2#0;class#Personnage#0" />
+                <element signature="docComment;method#Start#0;class#Game#0" />
+                <element signature="method#Start#0;class#Game#0" />
+                <element signature="docComment;method#Turn#0;class#Game#0" />
+                <element signature="method#Turn#0;class#Game#0" />
               </folding>
             </state>
           </provider>
@@ -86,6 +63,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>org.junit.jupiter.api.</find>
+      <find>est mort</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,15 +75,15 @@
         <option value="$PROJECT_DIR$/test/magiworld/Game.java" />
         <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/MainTest.java" />
         <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/GuerrierTest.java" />
-        <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Guerrier.java" />
         <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/MageTest.java" />
-        <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Mage.java" />
-        <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Rodeur.java" />
         <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/RodeurTest.java" />
         <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/Main.java" />
         <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/PersonnageTest.java" />
         <option value="$PROJECT_DIR$/test/com/openclassrooms/magiworld/GameTest.java" />
         <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Personnage.java" />
+        <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Guerrier.java" />
+        <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Rodeur.java" />
+        <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Mage.java" />
         <option value="$PROJECT_DIR$/src/com/openclassrooms/magiworld/Game.java" />
       </list>
     </option>
@@ -327,7 +305,7 @@
       <option name="presentableId" value="Default" />
       <updated>1535379719199</updated>
       <workItem from="1535379720966" duration="8336000" />
-      <workItem from="1535462530291" duration="3041000" />
+      <workItem from="1535462530291" duration="4067000" />
     </task>
     <task id="LOCAL-00001" summary="Git init&#10;Add empty class : Main / Game / Personnage">
       <created>1535379930553</created>
@@ -378,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535388305357</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Javadoc to Personnage&#10;Add method for Game : Start &amp; Turn ( for start the fight )">
+      <created>1535466093349</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1535466093349</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -414,7 +399,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11377000" />
+    <option name="totallyTimeSpent" value="12403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -429,7 +414,7 @@
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290653" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43021768" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43021768" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
@@ -490,7 +475,8 @@
     <MESSAGE value="Add class Mage&#10;Add methods to Mage&#10;Add abstract method to Personnage&#10;Add Test class&#10;Add Test method" />
     <MESSAGE value="Add class Rodeur&#10;Add methods to Rodeur&#10;Add abstract method to Personnage&#10;Add Test class&#10;Add Test method" />
     <MESSAGE value="Add methods to Game for personnage creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add methods to Game for personnage creation" />
+    <MESSAGE value="Add Javadoc to Personnage&#10;Add method for Game : Start &amp; Turn ( for start the fight )" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Javadoc to Personnage&#10;Add method for Game : Start &amp; Turn ( for start the fight )" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,11 +496,20 @@
         <state relative-caret-position="795">
           <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
           <folding>
+            <element signature="docComment;class#Personnage#0" />
             <element signature="docComment;method#Personnage#0;class#Personnage#0" />
             <element signature="method#Personnage#0;class#Personnage#0" />
+            <element signature="docComment;method#removeLife#0;class#Personnage#0" />
+            <element signature="method#removeLife#0;class#Personnage#0" />
+            <element signature="docComment;method#addLife#0;class#Personnage#0" />
+            <element signature="method#addLife#0;class#Personnage#0" />
+            <element signature="docComment;method#addAgility#0;class#Personnage#0" />
+            <element signature="method#addAgility#0;class#Personnage#0" />
             <element signature="docComment;method#cri#0;class#Personnage#0" />
             <element signature="docComment;method#attack1#0;class#Personnage#0" />
             <element signature="docComment;method#attack2#0;class#Personnage#0" />
+            <element signature="docComment;method#toString#0;class#Personnage#0" />
+            <element signature="method#toString#0;class#Personnage#0" />
           </folding>
         </state>
       </provider>
@@ -527,9 +522,12 @@
             <element signature="docComment;method#Game#0;class#Game#0" />
             <element signature="method#Game#0;class#Game#0" />
             <element signature="docComment;method#createPlayer#0;class#Game#0" />
-            <element signature="method#createPlayer#0;class#Game#0" />
             <element signature="docComment;method#instanciationPersonnage#0;class#Game#0" />
             <element signature="method#instanciationPersonnage#0;class#Game#0" />
+            <element signature="docComment;method#Start#0;class#Game#0" />
+            <element signature="method#Start#0;class#Game#0" />
+            <element signature="docComment;method#Turn#0;class#Game#0" />
+            <element signature="method#Turn#0;class#Game#0" />
           </folding>
         </state>
       </provider>
@@ -537,36 +535,6 @@
     <entry file="file://$PROJECT_DIR$/test/magiworld/Main.java" />
     <entry file="file://$PROJECT_DIR$/test/magiworld/Game.java" />
     <entry file="file://$PROJECT_DIR$/test/magiworld/personnage/Personnage.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Mage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="116" />
-          <folding>
-            <element signature="docComment;method#Mage#0;class#Mage#0" />
-            <element signature="method#Mage#0;class#Mage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Rodeur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="docComment;method#Rodeur#0;class#Rodeur#0" />
-            <element signature="method#Rodeur#0;class#Rodeur#0" />
-            <element signature="method#attack1#0;class#Rodeur#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Guerrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/openclassrooms/magiworld/personnage/GuerrierTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -633,29 +601,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Personnage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="83" column="67" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="67" />
+        <state relative-caret-position="-376">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
+            <element signature="docComment;class#Personnage#0" />
             <element signature="docComment;method#Personnage#0;class#Personnage#0" />
             <element signature="method#Personnage#0;class#Personnage#0" />
+            <element signature="docComment;method#removeLife#0;class#Personnage#0" />
+            <element signature="method#removeLife#0;class#Personnage#0" />
+            <element signature="docComment;method#addLife#0;class#Personnage#0" />
+            <element signature="method#addLife#0;class#Personnage#0" />
+            <element signature="docComment;method#addAgility#0;class#Personnage#0" />
+            <element signature="method#addAgility#0;class#Personnage#0" />
             <element signature="docComment;method#cri#0;class#Personnage#0" />
             <element signature="docComment;method#attack1#0;class#Personnage#0" />
             <element signature="docComment;method#attack2#0;class#Personnage#0" />
+            <element signature="docComment;method#toString#0;class#Personnage#0" />
+            <element signature="method#toString#0;class#Personnage#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="docComment;method#Mage#0;class#Mage#0" />
+            <element signature="method#Mage#0;class#Mage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Rodeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;method#Rodeur#0;class#Rodeur#0" />
+            <element signature="method#Rodeur#0;class#Rodeur#0" />
+            <element signature="method#attack1#0;class#Rodeur#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/personnage/Guerrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/openclassrooms/magiworld/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+        <state relative-caret-position="317">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
           <folding>
             <element signature="docComment;method#Game#0;class#Game#0" />
             <element signature="method#Game#0;class#Game#0" />
             <element signature="docComment;method#createPlayer#0;class#Game#0" />
-            <element signature="method#createPlayer#0;class#Game#0" />
             <element signature="docComment;method#instanciationPersonnage#0;class#Game#0" />
             <element signature="method#instanciationPersonnage#0;class#Game#0" />
+            <element signature="docComment;method#Start#0;class#Game#0" />
+            <element signature="method#Start#0;class#Game#0" />
+            <element signature="docComment;method#Turn#0;class#Game#0" />
+            <element signature="method#Turn#0;class#Game#0" />
           </folding>
         </state>
       </provider>
